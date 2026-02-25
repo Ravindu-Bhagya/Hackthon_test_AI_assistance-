@@ -1,0 +1,776 @@
+[
+    {
+        "task": "Send the revised document",
+        "owner": "Ravindu",
+        "deadline": "Friday",
+        "priority": "high",
+        "suggestion": "Action item from email: Revised document",
+        "status": "pending",
+        "source": "email",
+        "confidence": "high",
+        "source_email": {
+            "from": "manager@company.com",
+            "subject": "Revised document",
+            "body": "Hi Ravindu, can you send the revised document by Friday?"
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Follow up with the client",
+        "owner": "Ravindu",
+        "deadline": "2026-02-26",
+        "priority": "high",
+        "suggestion": "Action item from email: Client meeting follow-up",
+        "status": "pending",
+        "source": "email",
+        "confidence": "high",
+        "source_email": {
+            "from": "lead@company.com",
+            "subject": "Client meeting follow-up",
+            "body": "Please follow up with the client and update me by tomorrow."
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Complete urgent task: URGENT: Project deadline moved up",
+        "owner": "You",
+        "deadline": "Today",
+        "priority": "high",
+        "suggestion": "Action item from email: URGENT: Project deadline moved up",
+        "status": "pending",
+        "source": "email",
+        "confidence": "high",
+        "source_email": {
+            "from": "boss@company.com",
+            "subject": "URGENT: Project deadline moved up",
+            "body": "The project deadline has been moved to today. Please complete the final report immediately and send it to the client."
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Review: Team meeting notes",
+        "owner": "You",
+        "deadline": "2026-02-27",
+        "priority": "medium",
+        "suggestion": "Action item from email: Team meeting notes",
+        "status": "pending",
+        "source": "email",
+        "confidence": "medium",
+        "source_email": {
+            "from": "colleague@company.com",
+            "subject": "Team meeting notes",
+            "body": "Here are the notes from today's meeting. No immediate action required, but please review for any follow-ups next week."
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Complete training/acknowledge policy",
+        "owner": "You",
+        "deadline": "2026-03-04",
+        "priority": "medium",
+        "suggestion": "Action item from email: Policy update",
+        "status": "pending",
+        "source": "email",
+        "confidence": "medium",
+        "source_email": {
+            "from": "hr@company.com",
+            "subject": "Policy update",
+            "body": "We have updated the company policy on remote work. Please read the attached document and acknowledge by end of month."
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Revise and update document/proposal",
+        "owner": "You",
+        "deadline": "2026-02-28",
+        "priority": "medium",
+        "suggestion": "Action item from email: Feedback on proposal",
+        "status": "pending",
+        "source": "email",
+        "confidence": "medium",
+        "source_email": {
+            "from": "client@external.com",
+            "subject": "Feedback on proposal",
+            "body": "Thank you for the proposal. We need some revisions: update the pricing section and add a timeline. Please send the updated version by Wednesday."
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Confirm approval/signature",
+        "owner": "You",
+        "deadline": "2026-02-26",
+        "priority": "high",
+        "suggestion": "Action item from email: Order confirmation",
+        "status": "pending",
+        "source": "email",
+        "confidence": "high",
+        "source_email": {
+            "from": "supplier@vendor.com",
+            "subject": "Order confirmation",
+            "body": "Your order has been confirmed. Expected delivery is in 2 weeks. If you have any questions, reply to this email."
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Review: Please review the slide deck",
+        "owner": "You",
+        "deadline": "2026-02-27",
+        "priority": "medium",
+        "suggestion": "Action item from email: Please review the slide deck",
+        "status": "pending",
+        "source": "email",
+        "confidence": "medium",
+        "source_email": {
+            "from": "pm@company.com",
+            "subject": "Please review the slide deck",
+            "body": "Can you review the attached slide deck and send feedback by end of day?"
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Prepare quote/proposal",
+        "owner": "You",
+        "deadline": "2026-02-28",
+        "priority": "medium",
+        "suggestion": "Action item from email: Need updated timeline",
+        "status": "pending",
+        "source": "email",
+        "confidence": "medium",
+        "source_email": {
+            "from": "client2@external.com",
+            "subject": "Need updated timeline",
+            "body": "Please update the timeline and resend the proposal by Monday."
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Update security credentials",
+        "owner": "You",
+        "deadline": "2026-02-27",
+        "priority": "high",
+        "suggestion": "Action item from email: Password reset required",
+        "status": "pending",
+        "source": "email",
+        "confidence": "high",
+        "source_email": {
+            "from": "security@company.com",
+            "subject": "Password reset required",
+            "body": "Please reset your password within 48 hours to comply with security policy."
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Review and respond: RSVP: Town hall",
+        "owner": "You",
+        "deadline": "2026-02-27",
+        "priority": "low",
+        "suggestion": "Action item from email: RSVP: Town hall",
+        "status": "pending",
+        "source": "email",
+        "confidence": "low",
+        "source_email": {
+            "from": "events@company.com",
+            "subject": "RSVP: Town hall",
+            "body": "Please RSVP for the town hall next Wednesday. No other action required."
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Prepare quote/proposal",
+        "owner": "You",
+        "deadline": "2026-02-28",
+        "priority": "medium",
+        "suggestion": "Action item from email: Quote request",
+        "status": "pending",
+        "source": "email",
+        "confidence": "medium",
+        "source_email": {
+            "from": "sales@vendor.com",
+            "subject": "Quote request",
+            "body": "Can you provide a quote for 100 units by Friday?"
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Complete urgent task: Read ASAP: Board update",
+        "owner": "You",
+        "deadline": "Today",
+        "priority": "high",
+        "suggestion": "Action item from email: Read ASAP: Board update",
+        "status": "pending",
+        "source": "email",
+        "confidence": "high",
+        "source_email": {
+            "from": "ceo@company.com",
+            "subject": "Read ASAP: Board update",
+            "body": "Board requested the Q1 update \u2014 compile the summary and send within 2 hours."
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Schedule meeting/call",
+        "owner": "You",
+        "deadline": "2026-02-26",
+        "priority": "medium",
+        "suggestion": "Action item from email: Schedule integration meeting",
+        "status": "pending",
+        "source": "email",
+        "confidence": "medium",
+        "source_email": {
+            "from": "partner@company.com",
+            "subject": "Schedule integration meeting",
+            "body": "Let's schedule a call to discuss integration next week. Please propose 3 time slots."
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Submit feedback/report/summary",
+        "owner": "You",
+        "deadline": "2026-02-27",
+        "priority": "medium",
+        "suggestion": "Action item from email: Interview feedback",
+        "status": "pending",
+        "source": "email",
+        "confidence": "medium",
+        "source_email": {
+            "from": "recruiting@company.com",
+            "subject": "Interview feedback",
+            "body": "Please submit your feedback on the candidate by tomorrow morning."
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Confirm approval/signature",
+        "owner": "You",
+        "deadline": "2026-02-26",
+        "priority": "high",
+        "suggestion": "Action item from email: Invoice discrepancy",
+        "status": "pending",
+        "source": "email",
+        "confidence": "high",
+        "source_email": {
+            "from": "finance@company.com",
+            "subject": "Invoice discrepancy",
+            "body": "We noticed a discrepancy in invoice #1234. Could you confirm and correct by Friday?"
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Review: Approve the campaign copy",
+        "owner": "You",
+        "deadline": "2026-02-27",
+        "priority": "medium",
+        "suggestion": "Action item from email: Approve the campaign copy",
+        "status": "pending",
+        "source": "email",
+        "confidence": "medium",
+        "source_email": {
+            "from": "marketing@company.com",
+            "subject": "Approve the campaign copy",
+            "body": "Please review and approve the campaign copy by EOD so we can launch."
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Create incident/outage report",
+        "owner": "You",
+        "deadline": "2026-02-27",
+        "priority": "medium",
+        "suggestion": "Action item from email: Service outage report",
+        "status": "pending",
+        "source": "email",
+        "confidence": "medium",
+        "source_email": {
+            "from": "ops@company.com",
+            "subject": "Service outage report",
+            "body": "We experienced an outage; please create an incident report by Monday."
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Estimate impact and respond to change request",
+        "owner": "You",
+        "deadline": "2026-02-27",
+        "priority": "medium",
+        "suggestion": "Action item from email: Change request",
+        "status": "pending",
+        "source": "email",
+        "confidence": "medium",
+        "source_email": {
+            "from": "client3@external.com",
+            "subject": "Change request",
+            "body": "Client requests a scope change: add two new features. Need impact estimate by Thursday."
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Confirm approval/signature",
+        "owner": "You",
+        "deadline": "2026-02-26",
+        "priority": "high",
+        "suggestion": "Action item from email: Schedule confirmation",
+        "status": "pending",
+        "source": "email",
+        "confidence": "high",
+        "source_email": {
+            "from": "admin@company.com",
+            "subject": "Schedule confirmation",
+            "body": "Your meeting is confirmed for next Tuesday at 10 AM."
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Submit feedback/report/summary",
+        "owner": "You",
+        "deadline": "2026-02-27",
+        "priority": "medium",
+        "suggestion": "Action item from email: Quick favor",
+        "status": "pending",
+        "source": "email",
+        "confidence": "medium",
+        "source_email": {
+            "from": "boss2@company.com",
+            "subject": "Quick favor",
+            "body": "Can you draft a one-page summary of the project status by this afternoon?"
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Review: Contract review needed",
+        "owner": "You",
+        "deadline": "2026-02-27",
+        "priority": "medium",
+        "suggestion": "Action item from email: Contract review needed",
+        "status": "pending",
+        "source": "email",
+        "confidence": "medium",
+        "source_email": {
+            "from": "legal@company.com",
+            "subject": "Contract review needed",
+            "body": "Please review the attached contract and flag any issues by Monday."
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Review and respond: Sync on feature X",
+        "owner": "You",
+        "deadline": "2026-02-27",
+        "priority": "low",
+        "suggestion": "Action item from email: Sync on feature X",
+        "status": "pending",
+        "source": "email",
+        "confidence": "low",
+        "source_email": {
+            "from": "teammate2@company.com",
+            "subject": "Sync on feature X",
+            "body": "Can you sync with me on feature X? No deliverables, just a short call."
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Confirm approval/signature",
+        "owner": "You",
+        "deadline": "2026-02-26",
+        "priority": "high",
+        "suggestion": "Action item from email: Approval for go-live",
+        "status": "pending",
+        "source": "email",
+        "confidence": "high",
+        "source_email": {
+            "from": "client4@external.com",
+            "subject": "Approval for go-live",
+            "body": "Please confirm approval to go live by Thursday."
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Complete training/acknowledge policy",
+        "owner": "You",
+        "deadline": "2026-03-04",
+        "priority": "medium",
+        "suggestion": "Action item from email: Training reminder",
+        "status": "pending",
+        "source": "email",
+        "confidence": "medium",
+        "source_email": {
+            "from": "hr2@company.com",
+            "subject": "Training reminder",
+            "body": "Reminder: Complete the compliance training by the end of the week."
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Schedule meeting/call",
+        "owner": "You",
+        "deadline": "2026-02-26",
+        "priority": "medium",
+        "suggestion": "Action item from email: Maintenance window",
+        "status": "pending",
+        "source": "email",
+        "confidence": "medium",
+        "source_email": {
+            "from": "ops2@company.com",
+            "subject": "Maintenance window",
+            "body": "Scheduled maintenance next Saturday. No action required unless you have objections."
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Recruit users/prepare research",
+        "owner": "You",
+        "deadline": "2026-03-01",
+        "priority": "medium",
+        "suggestion": "Action item from email: User research request",
+        "status": "pending",
+        "source": "email",
+        "confidence": "medium",
+        "source_email": {
+            "from": "product@company.com",
+            "subject": "User research request",
+            "body": "Please recruit 5 users for a study and send candidate list by Friday."
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Confirm approval/signature",
+        "owner": "You",
+        "deadline": "2026-02-26",
+        "priority": "high",
+        "suggestion": "Action item from email: Billing question",
+        "status": "pending",
+        "source": "email",
+        "confidence": "high",
+        "source_email": {
+            "from": "client5@external.com",
+            "subject": "Billing question",
+            "body": "Can you confirm the billing address for our account?"
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Prepare and send data export",
+        "owner": "You",
+        "deadline": "2026-02-26",
+        "priority": "medium",
+        "suggestion": "Action item from email: Data discrepancy",
+        "status": "pending",
+        "source": "email",
+        "confidence": "medium",
+        "source_email": {
+            "from": "analytics@company.com",
+            "subject": "Data discrepancy",
+            "body": "We found a data discrepancy; please investigate and provide root cause by Monday."
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Review and respond: Career chat",
+        "owner": "You",
+        "deadline": "2026-02-27",
+        "priority": "low",
+        "suggestion": "Action item from email: Career chat",
+        "status": "pending",
+        "source": "email",
+        "confidence": "low",
+        "source_email": {
+            "from": "mentor@company.com",
+            "subject": "Career chat",
+            "body": "Would you have 30 minutes this week for a quick career chat?"
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Review: Press release review",
+        "owner": "You",
+        "deadline": "2026-02-27",
+        "priority": "medium",
+        "suggestion": "Action item from email: Press release review",
+        "status": "pending",
+        "source": "email",
+        "confidence": "medium",
+        "source_email": {
+            "from": "pr@company.com",
+            "subject": "Press release review",
+            "body": "Please review the draft press release and provide edits by Friday."
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Update security and change credentials",
+        "owner": "You",
+        "deadline": "Today",
+        "priority": "high",
+        "suggestion": "Action item from email: Phishing alert",
+        "status": "pending",
+        "source": "email",
+        "confidence": "high",
+        "source_email": {
+            "from": "security2@company.com",
+            "subject": "Phishing alert",
+            "body": "We detected a phishing attempt. Please change credentials if you clicked any link."
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Finalize statement of work",
+        "owner": "You",
+        "deadline": "2026-02-28",
+        "priority": "medium",
+        "suggestion": "Action item from email: Finalize SOW",
+        "status": "pending",
+        "source": "email",
+        "confidence": "medium",
+        "source_email": {
+            "from": "client6@external.com",
+            "subject": "Finalize SOW",
+            "body": "Please finalize the statement of work and return by next Wednesday."
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Review: Contract renewal",
+        "owner": "You",
+        "deadline": "2026-02-27",
+        "priority": "medium",
+        "suggestion": "Action item from email: Contract renewal",
+        "status": "pending",
+        "source": "email",
+        "confidence": "medium",
+        "source_email": {
+            "from": "vendor3@vendor.com",
+            "subject": "Contract renewal",
+            "body": "Contract renewal notice: review and approve the renewal by end of month."
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Review: FYI - draft pushed",
+        "owner": "You",
+        "deadline": "2026-02-27",
+        "priority": "medium",
+        "suggestion": "Action item from email: FYI - draft pushed",
+        "status": "pending",
+        "source": "email",
+        "confidence": "medium",
+        "source_email": {
+            "from": "teammate3@company.com",
+            "subject": "FYI - draft pushed",
+            "body": "I pushed a draft to the repo. No action required unless you want to review."
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Complete urgent task: Urgent: data needed",
+        "owner": "You",
+        "deadline": "Today",
+        "priority": "high",
+        "suggestion": "Action item from email: Urgent: data needed",
+        "status": "pending",
+        "source": "email",
+        "confidence": "high",
+        "source_email": {
+            "from": "client7@external.com",
+            "subject": "Urgent: data needed",
+            "body": "We need the data export now to meet our deadline \u2014 please send immediately."
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Approve marketing content",
+        "owner": "You",
+        "deadline": "2026-02-26",
+        "priority": "medium",
+        "suggestion": "Action item from email: Social post approval",
+        "status": "pending",
+        "source": "email",
+        "confidence": "medium",
+        "source_email": {
+            "from": "marketing2@company.com",
+            "subject": "Social post approval",
+            "body": "Please approve the social post text by tomorrow morning."
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Review and respond: Paper deadline",
+        "owner": "You",
+        "deadline": "2026-02-27",
+        "priority": "low",
+        "suggestion": "Action item from email: Paper deadline",
+        "status": "pending",
+        "source": "email",
+        "confidence": "low",
+        "source_email": {
+            "from": "research@company.com",
+            "subject": "Paper deadline",
+            "body": "Draft paper due next Monday. Please contribute your section by Friday."
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Review: Retention policy",
+        "owner": "You",
+        "deadline": "2026-02-27",
+        "priority": "medium",
+        "suggestion": "Action item from email: Retention policy",
+        "status": "pending",
+        "source": "email",
+        "confidence": "medium",
+        "source_email": {
+            "from": "ops3@company.com",
+            "subject": "Retention policy",
+            "body": "We updated the retention policy \u2014 please review when convenient."
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Schedule meeting/call",
+        "owner": "You",
+        "deadline": "2026-02-26",
+        "priority": "medium",
+        "suggestion": "Action item from email: Schedule change request",
+        "status": "pending",
+        "source": "email",
+        "confidence": "medium",
+        "source_email": {
+            "from": "client8@external.com",
+            "subject": "Schedule change request",
+            "body": "Can we move the meeting from Tuesday to Thursday?"
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Process invoice/payment/billing",
+        "owner": "You",
+        "deadline": "2026-03-02",
+        "priority": "medium",
+        "suggestion": "Action item from email: Invoice #555",
+        "status": "pending",
+        "source": "email",
+        "confidence": "medium",
+        "source_email": {
+            "from": "vendor4@vendor.com",
+            "subject": "Invoice #555",
+            "body": "Invoice attached. Please process payment within 30 days."
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Submit feedback/report/summary",
+        "owner": "You",
+        "deadline": "2026-02-27",
+        "priority": "medium",
+        "suggestion": "Action item from email: Monthly trends",
+        "status": "pending",
+        "source": "email",
+        "confidence": "medium",
+        "source_email": {
+            "from": "news@industry.com",
+            "subject": "Monthly trends",
+            "body": "Monthly trends report attached. No action required."
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    },
+    {
+        "task": "Review and respond: Reminder: password expires",
+        "owner": "You",
+        "deadline": "2026-02-27",
+        "priority": "low",
+        "suggestion": "Action item from email: Reminder: password expires",
+        "status": "pending",
+        "source": "email",
+        "confidence": "low",
+        "source_email": {
+            "from": "support2@service.com",
+            "subject": "Reminder: password expires",
+            "body": "Your password expires in 7 days. Please update it."
+        },
+        "reminder": "1 hour before",
+        "reminder_triggered": false,
+        "reminder_hours": 1
+    }
+]
